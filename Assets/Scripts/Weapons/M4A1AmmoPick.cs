@@ -13,7 +13,7 @@ public class M4A1AmmoPick : MonoBehaviour
   {
     fakeAmmoClip.SetActive(false);
     ammoPickUpSound.Play();
-    GlobalAmmo.M4A1Ammo += 10;
+    GlobalAmmo.M4A1Ammo += 30;
     pickUpDisplay.SetActive(false);
     pickUpDisplay.GetComponent<Text>().text = "CLIP OF BULLETS";
     pickUpDisplay.SetActive(true);
